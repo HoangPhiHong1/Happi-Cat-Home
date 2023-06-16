@@ -1,0 +1,115 @@
+body{
+    background-image: url(https://tinyurl.com/3c2dmm6b);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#p1{
+    font-size: 80px;
+    font-family: 'funny', sans-serif;
+                                                
+
+    position: absolute;
+    top: 100px;
+    right: 300px;
+
+    animation: grooving 2s ease-in-out infinite;
+}
+
+#Happi-cat{
+    width:100px;
+    height: 100px;
+    border-style: none;
+
+    position: absolute;
+    bottom: 100px;
+    right: 300px;
+}
+
+#Happi-cat:hover{
+    opacity: 0;
+}
+
+#Happi-cat-gif{
+    width:100px;
+    height: 100px;
+    border-style: none;
+
+    position: absolute;
+    bottom: 100px;
+    right: 300px;
+    opacity: 0;
+}
+
+#Happi-cat-gif:hover{
+    opacity: 1;
+}
+
+#Banana-cat{
+    width:100px;
+    height: 100px;
+    border-style: none;
+
+    position: absolute;
+    bottom: 50px;
+    left: 450px;
+}
+
+#Banana-cat-gif{
+    width: 100px;
+    height: 100px;
+    border-style: none;
+    position: absolute;
+    bottom: 50px;
+    left:450px;
+    opacity:0;
+}
+
+#Banana-cat :hover {
+    opacity:0;
+}
+
+#Banana-cat-gif:hover {
+    opacity:1;
+}
+
+#Apple-cat{
+    width:100px;
+    height: 100px;
+    border-style: none;
+
+    position: absolute;
+    bottom: 30px;
+    left: 620px;
+}
+
+#Apple-cat-gif{
+    width:100px;
+    height: 100px;
+    border-style: none;
+
+    position: absolute;
+    bottom: 30px;
+    left: 620px;
+    opacity:0;
+}
+
+#Apple-cat :c{
+    opacity:0;
+}
+
+#Apple-cat-gif:hover{
+    opacity:1;
+}
+
+@keyframes grooving {
+    0% {
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateX(20px);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  

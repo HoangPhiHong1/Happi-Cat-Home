@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <style>
+            @import url('https://fonts.cdnfonts.com/css/funny');
+        </style>
+
+        <link rel="stylesheet" href="stylesheet.css">
+        <title>Happi Cat</title>
+    </head>
+
+    <body>
+        <p>
+            <em>Click</em> on each cat to see what the cat do !!
+        </p>
+        <p1 id="p1">HAPPI CAT HOME</p1>
+        
+        <img src="https://i.ytimg.com/vi/Gnm3hIcjiCQ/hqdefault.jpg" alt="Happi Cat" id="Happi-cat" >
+        <img src="https://tinyurl.com/wpx6z9bk" alt="Banana Cat" id="Banana-cat">
+        <img src="https://tinyurl.com/mr3vctcd" alt="Apple Cat" id="Apple-cat">
+            
+        
+            
+        <img src="https://tinyurl.com/kfec9dpk" alt="Happi Cat Gif" id="Happi-cat-gif">
+        <img src="https://tinyurl.com/595sc4dh" alt="Banana Cat Gif" id="Banana-cat-gif">
+        <img src="https://tinyurl.com/mr3uh49d" alt="Apple Cat Gif" id="Apple-cat-gif">    
+        
+        <audio id="Banana-cat-cry" src="Banana Cat Crying Meme Template  sound effect.mp3"> </audio>
+        <audio id="Happi-happi-song" src="HAPPY HAPPY HAPPY  TikTok sound effect.mp3"></audio>
+        <script>
+            var audio1 = document.getElementById("Banana-cat-cry");
+            var image1 = document.getElementById("Banana-cat-gif");
+            var audio2 = document.getElementById("Happi-happi-song");
+            var image2 = document.getElementById("Happi-cat-gif");
+            var image3 = document.getElementById("Apple-cat-gif");
+
+            image1.addEventListener("mouseover", function(){
+                document.addEventListener("click", playAudio1);
+            });
+
+            image2.addEventListener("mouseover", function(){
+                document.addEventListener("click", playAudio2);
+            });
+
+            image3.addEventListener("mouseover", function(){
+                document.addEventListener("click", playAudio2);
+            });
+
+            function playAudio1() {
+                audio1.play();
+                document.removeEventListener("click", playAudio1);
+              }
+
+              function playAudio2() {
+                audio2.play();
+                document.removeEventListener("click", playAudio2);
+              }
+
+        </script>
+
+    </body>
+</html>
